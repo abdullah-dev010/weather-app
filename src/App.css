@@ -1,38 +1,47 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.app {
   text-align: center;
+  padding: 50px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffb347;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background-color: #ffcc33;
 }
 
-.App-link {
-  color: #61dafb;
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  color: #ff4444;
 }
