@@ -8,10 +8,10 @@ function Weather({ data }) {
       <p>Feels like: {data.main.feels_like}°C</p>
       <p>Weather: {data.weather[0].main}</p>
       <p>Humidity: {data.main.humidity}%</p>
-      <p>Wind Speed: {data.wind.speed} m/s</p>
+      <p>Wind speed: {data.wind.speed} m/s</p>
     </div>
   );
 }
 
 
-export default Weather
+export default weather
