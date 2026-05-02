@@ -95,11 +95,9 @@ src/
 * Dark/Light mode toggle
 
 ---
-
-## 👨‍💻 Author
-
-Abdullah
-Frontend Developer (Learning Phase 🚀)
+👨‍💻 Author  
+Abdullah  
+Frontend Developer | React Developer
 
 ---
 
