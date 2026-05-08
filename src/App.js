@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+;
 import Weather from "./weather.js";
 import "./App.css";
 
